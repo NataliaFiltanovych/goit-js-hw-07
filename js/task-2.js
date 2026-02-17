@@ -42,7 +42,7 @@ const images = [
 
 function imageTemplate(image) {
   return `<li>
-        <img src="${image.url}" alt="${image.alt}">
+        <img src="${image.url}" alt="${image.alt}" class = 'image'>
       </li>`;
 }
 function imagesTemplate(images) {
